@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+ 
+    <title>Bolo de Aniversário</title>
+</head>
+
+<body>
+    <main>
+        <bolo-base>
+            <div class="passo ativo" id="passo-0">
+                <img src="Bolos/BALÃO.gif">
+                
+                <p>Hoje é seu aniversário!! Para comemorar, precisamos primeiramente de um bolo.
+                    Vamos confeitar?</p>
+                <button class="btn-proximo" data-proximo="1">Sim, vamos!!</button>
+            </div>
+        </bolo-base>
+        <cobertura>
+            <div class="passo" id="passo-1">
+               <div class="bolo-zero" id="imagem"> 
+                <img src="Bolos/Cobertura/bolo-zero.png" alt="">
+               </div>
+                <p>Esse é seu bolo, mas ele precisa de uma cobertura...
+                    Qual você prefere?</p>
+                <button class="btn-proximo" data-proximo="2">Baunilha</button>
+                <button class="btn-proximo" data-proximo="3">Chocolate</button>
+                <button class="btn-proximo" data-proximo="4">Morango</button>
+                <button class="btn-proximo" data-proximo="5">Limão</button>
+            </div>
+        </cobertura>
+        <chantilly>
+            <div class="passo" id="passo-2">
+                <img src="Bolos/Cobertura/Baunilha.png" alt="">
+                <p>Que delicia! Baunilha é realmente muito gostoso.<br>Agora, em qual parte do bolo colocaremos o chantilly?</p>
+                    <button class="btn-proximo" data-proximo="6">No topo</button>
+                    <button class="btn-proximo" data-proximo="7">Na borda</button>
+                    <button class="btn-proximo" data-proximo="8">No topo e borda</button>
+          
+            </div>
+            <div class="passo" id="passo-3">
+                <img src="Bolos/Cobertura/Chocolate.png" alt="">
+                <p>Que delicia! Chocolate é realmente muito gostoso.<br> Agora, em qual parte do bolo colocaremos o chantilly?</p>
+                    <button class="btn-proximo" data-proximo="9">No topo</button>
+                    <button class="btn-proximo" data-proximo="10">Na borda</button>
+                    <button class="btn-proximo" data-proximo="11">No topo e borda</button>
+                
+            </div>
+            <div class="passo" id="passo-4">
+                <img src="Bolos/Cobertura/Morango.png" alt="">
+                <p>Que delicia! Morango é realmente muito gostoso.<br> Agora, em qual parte do bolo colocaremos o chantilly?</p>
+                    <button class="btn-proximo" data-proximo="12">No topo</button>
+                    <button class="btn-proximo" data-proximo="13">Na borda</button>
+                    <button class="btn-proximo" data-proximo="14">No topo e borda</button>
+          
+            </div>
+            <div class="passo" id="passo-5">
+                <img src="Bolos/Cobertura/Limão.png" alt="">
+                <p>Que delicia! Limão é realmente muito gostoso.<br>Agora, em qual parte do bolo colocaremos o chantilly?</p>
+                    <button class="btn-proximo" data-proximo="15">No topo</button>
+                    <button class="btn-proximo" data-proximo="16">Na Borda</button>
+                    <button class="btn-proximo" data-proximo="17">No topo e borda</button>
+    
+            </div>
+        </chantilly>
+
+        <decoração>
+            <div class="passo" id="passo-6">
+                <img src="Bolos/chantilly/baunilha-cima.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="18">Corações</button>
+                <button class="btn-proximo" data-proximo="19">Estrelas</button>
+                <button class="btn-proximo" data-proximo="20">Flores</button>
+            </div>
+            <div class="passo" id="passo-7">
+                <img src="Bolos/chantilly/baunilha-baixo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="21">Corações</button>
+                <button class="btn-proximo" data-proximo="22">Estrelas</button>
+                <button class="btn-proximo" data-proximo="23">Flores</button>
+            </div>
+            <div class="passo" id="passo-8">
+                <img src="Bolos/chantilly/baunilha-tudo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="24">Corações</button>
+                <button class="btn-proximo" data-proximo="25">Estrelas</button>
+                <button class="btn-proximo" data-proximo="26">Flores</button>
+            </div>
+            <div class="passo" id="passo-9">
+                <img src="Bolos/chantilly/choco-cima.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="27">Corações</button>
+                <button class="btn-proximo" data-proximo="28">Estrelas</button>
+                <button class="btn-proximo" data-proximo="29">Flores</button>
+            </div>
+            <div class="passo" id="passo-10">
+                <img src="Bolos/chantilly/choco-baixo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="30">Corações</button>
+                <button class="btn-proximo" data-proximo="31">Estrelas</button>
+                <button class="btn-proximo" data-proximo="32">Flores</button>
+            </div>
+            <div class="passo" id="passo-11">
+                <img src="Bolos/chantilly/choco-tudo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="33">Corações</button>
+                <button class="btn-proximo" data-proximo="34">Estrelas</button>
+                <button class="btn-proximo" data-proximo="35">Flores</button>
+            </div>
+            <div class="passo" id="passo-12">
+                <img src="Bolos/chantilly/morango-cima.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="36">Corações</button>
+                <button class="btn-proximo" data-proximo="37">Estrelas</button>
+                <button class="btn-proximo" data-proximo="38">Flores</button>
+            </div>
+            <div class="passo" id="passo-13">
+                <img src="Bolos/chantilly/morango-baixo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="39">Corações</button>
+                <button class="btn-proximo" data-proximo="40">Estrelas</button>
+                <button class="btn-proximo" data-proximo="41">Flores</button>
+            </div>
+            <div class="passo" id="passo-14">
+                <img src="Bolos/chantilly/morango-tudo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="43">Corações</button>
+                <button class="btn-proximo" data-proximo="44">Estrelas</button>
+                <button class="btn-proximo" data-proximo="45">Flores</button>
+            </div>
+            <div class="passo" id="passo-15">
+                <img src="Bolos/chantilly/limão-cima.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="46">Corações</button>
+                <button class="btn-proximo" data-proximo="47">Estrelas</button>
+                <button class="btn-proximo" data-proximo="48">Flores</button>
+            </div>
+            <div class="passo" id="passo-16">
+                <img src="Bolos/chantilly/limão-baixo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="49">Corações</button>
+                <button class="btn-proximo" data-proximo="50">Estrelas</button>
+                <button class="btn-proximo" data-proximo="51">Flores</button>
+            </div>
+            <div class="passo" id="passo-17">
+                <img src="Bolos/chantilly/limão-tudo.png" alt="">
+                <p>Ficou muito lindo! Agora, quais decoraçôes você deseja em seu bolo?</p>
+                <button class="btn-proximo" data-proximo="52">Corações</button>
+                <button class="btn-proximo" data-proximo="53">Estrelas</button>
+                <button class="btn-proximo" data-proximo="54">Flores</button>
+            </div>
+        </decoração>
+
+        <fundo>
+            <div class="passo" id="passo-18">
+                <img src="Bolos/decoração/baunilha-cima-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="55">Azul</button>
+                <button class="btn-proximo" data-proximo="56">Vermelho</button>
+                <button class="btn-proximo" data-proximo="57">Roxo</button>
+                <button class="btn-proximo" data-proximo="58">Verde</button>
+            </div>
+            <div class="passo" id="passo-19">
+                <img src="Bolos/decoração/baunilha-cima-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="59">Azul</button>
+                <button class="btn-proximo" data-proximo="60">Vermelho</button>
+                <button class="btn-proximo" data-proximo="61">Roxo</button>
+                <button class="btn-proximo" data-proximo="62">Verde</button>
+            </div>
+            <div class="passo" id="passo-20">
+                <img src="Bolos/decoração/baunilha-cima-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="63">Azul</button>
+                <button class="btn-proximo" data-proximo="64">Vermelho</button>
+                <button class="btn-proximo" data-proximo="65">Roxo</button>
+                <button class="btn-proximo" data-proximo="66">Verde</button>
+            </div>
+            <div class="passo" id="passo-21">
+                <img src="Bolos/decoração/baunilha-baixo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="67">Azul</button>
+                <button class="btn-proximo" data-proximo="68">Vermelho</button>
+                <button class="btn-proximo" data-proximo="69">Roxo</button>
+                <button class="btn-proximo" data-proximo="70">Verde</button>
+            </div>
+            <div class="passo" id="passo-22">
+                <img src="Bolos/decoração/baunilha-baixo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="71">Azul</button>
+                <button class="btn-proximo" data-proximo="72">Vermelho</button>
+                <button class="btn-proximo" data-proximo="73">Roxo</button>
+                <button class="btn-proximo" data-proximo="74">Verde</button>
+            </div>
+            <div class="passo" id="passo-23">
+                <img src="Bolos/decoração/baunilha-baixo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="75">Azul</button>
+                <button class="btn-proximo" data-proximo="76">Vermelho</button>
+                <button class="btn-proximo" data-proximo="77">Roxo</button>
+                <button class="btn-proximo" data-proximo="78">Verde</button>
+            </div>
+            <div class="passo" id="passo-24">
+                <img src="Bolos/decoração/baunilha-tudo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="79">Azul</button>
+                <button class="btn-proximo" data-proximo="80">Vermelho</button>
+                <button class="btn-proximo" data-proximo="81">Roxo</button>
+                <button class="btn-proximo" data-proximo="82">Verde</button>
+            </div>
+            <div class="passo" id="passo-25">
+                <img src="Bolos/decoração/baunilha-tudo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="83">Azul</button>
+                <button class="btn-proximo" data-proximo="84">Vermelho</button>
+                <button class="btn-proximo" data-proximo="85">Roxo</button>
+                <button class="btn-proximo" data-proximo="86">Verde</button>
+            </div>
+            <div class="passo" id="passo-26">
+                <img src="Bolos/decoração/baunilha-tudo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="87">Azul</button>
+                <button class="btn-proximo" data-proximo="88">Vermelho</button>
+                <button class="btn-proximo" data-proximo="89">Roxo</button>
+                <button class="btn-proximo" data-proximo="90">Verde</button>
+            </div>
+            <div class="passo" id="passo-27">
+                <img src="Bolos/decoração/choco-cima-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="91">Azul</button>
+                <button class="btn-proximo" data-proximo="92">Vermelho</button>
+                <button class="btn-proximo" data-proximo="93">Roxo</button>
+                <button class="btn-proximo" data-proximo="94">Verde</button>
+            </div>
+            <div class="passo" id="passo-28">
+                <img src="Bolos/decoração/choco-cima-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="95">Azul</button>
+                <button class="btn-proximo" data-proximo="96">Vermelho</button>
+                <button class="btn-proximo" data-proximo="97">Roxo</button>
+                <button class="btn-proximo" data-proximo="98">Verde</button>
+            </div>
+            <div class="passo" id="passo-29">
+                <img src="Bolos/decoração/choco-cima-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="99">Azul</button>
+                <button class="btn-proximo" data-proximo="100">Vermelho</button>
+                <button class="btn-proximo" data-proximo="101">Roxo</button>
+                <button class="btn-proximo" data-proximo="102">Verde</button>
+            </div>
+            <div class="passo" id="passo-30">
+                <img src="Bolos/decoração/choco-baixo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="103">Azul</button>
+                <button class="btn-proximo" data-proximo="104">Vermelho</button>
+                <button class="btn-proximo" data-proximo="105">Roxo</button>
+                <button class="btn-proximo" data-proximo="106">Verde</button>
+            </div>
+            <div class="passo" id="passo-31">
+                <img src="Bolos/decoração/choco-baixo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="107">Azul</button>
+                <button class="btn-proximo" data-proximo="108">Vermelho</button>
+                <button class="btn-proximo" data-proximo="109">Roxo</button>
+                <button class="btn-proximo" data-proximo="110">Verde</button>
+            </div>
+            <div class="passo" id="passo-32">
+                <img src="Bolos/decoração/choco-baixo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="111">Azul</button>
+                <button class="btn-proximo" data-proximo="112">Vermelho</button>
+                <button class="btn-proximo" data-proximo="113">Roxo</button>
+                <button class="btn-proximo" data-proximo="114">Verde</button>
+            </div>
+            <div class="passo" id="passo-33">
+                <img src="Bolos/decoração/choco-tudo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="115">Azul</button>
+                <button class="btn-proximo" data-proximo="116">Vermelho</button>
+                <button class="btn-proximo" data-proximo="117">Roxo</button>
+                <button class="btn-proximo" data-proximo="118">Verde</button>
+            </div>
+            <div class="passo" id="passo-34">
+                <img src="Bolos/decoração/choco-tudo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="119">Azul</button>
+                <button class="btn-proximo" data-proximo="120">Vermelho</button>
+                <button class="btn-proximo" data-proximo="121">Roxo</button>
+                <button class="btn-proximo" data-proximo="122">Verde</button>
+            </div>
+            <div class="passo" id="passo-35">
+                <img src="Bolos/decoração/choco-tudo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="123">Azul</button>
+                <button class="btn-proximo" data-proximo="124">Vermelho</button>
+                <button class="btn-proximo" data-proximo="125">Roxo</button>
+                <button class="btn-proximo" data-proximo="126">Verde</button>
+            </div>
+            <div class="passo" id="passo-36">
+                <img src="Bolos/decoração/morango-cima-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="127">Azul</button>
+                <button class="btn-proximo" data-proximo="128">Vermelho</button>
+                <button class="btn-proximo" data-proximo="129">Roxo</button>
+                <button class="btn-proximo" data-proximo="130">Verde</button>
+            </div>
+            <div class="passo" id="passo-37">
+                <img src="Bolos/decoração/morango-cima-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="131">Azul</button>
+                <button class="btn-proximo" data-proximo="132">Vermelho</button>
+                <button class="btn-proximo" data-proximo="133">Roxo</button>
+                <button class="btn-proximo" data-proximo="134">Verde</button>
+            </div>
+            <div class="passo" id="passo-38">
+                <img src="Bolos/decoração/morango-cima-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="135">Azul</button>
+                <button class="btn-proximo" data-proximo="136">Vermelho</button>
+                <button class="btn-proximo" data-proximo="137">Roxo</button>
+                <button class="btn-proximo" data-proximo="138">Verde</button>
+            </div>
+            <div class="passo" id="passo-39">
+                <img src="Bolos/decoração/morango-baixo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="139">Azul</button>
+                <button class="btn-proximo" data-proximo="140">Vermelho</button>
+                <button class="btn-proximo" data-proximo="141">Roxo</button>
+                <button class="btn-proximo" data-proximo="142">Verde</button>
+            </div>
+            <div class="passo" id="passo-40">
+                <img src="Bolos/decoração/morango-baixo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="143">Azul</button>
+                <button class="btn-proximo" data-proximo="144">Vermelho</button>
+                <button class="btn-proximo" data-proximo="145">Roxo</button>
+                <button class="btn-proximo" data-proximo="146">Verde</button>
+            </div>
+            <div class="passo" id="passo-41">
+                <img src="Bolos/decoração/morango-baixo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="147">Azul</button>
+                <button class="btn-proximo" data-proximo="148">Vermelho</button>
+                <button class="btn-proximo" data-proximo="149">Roxo</button>
+                <button class="btn-proximo" data-proximo="150">Verde</button>
+            </div>
+            <div class="passo" id="passo-43">
+                <img src="Bolos/decoração/morango-tudo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="155">Azul</button>
+                <button class="btn-proximo" data-proximo="156">Vermelho</button>
+                <button class="btn-proximo" data-proximo="157">Roxo</button>
+                <button class="btn-proximo" data-proximo="158">Verde</button>
+            </div>
+            <div class="passo" id="passo-44">
+                <img src="Bolos/decoração/morango-tudo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="159">Azul</button>
+                <button class="btn-proximo" data-proximo="160">Vermelho</button>
+                <button class="btn-proximo" data-proximo="161">Roxo</button>
+                <button class="btn-proximo" data-proximo="162">Verde</button>
+            </div>
+            <div class="passo" id="passo-45">
+                <img src="Bolos/decoração/morango-tudo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="163">Azul</button>
+                <button class="btn-proximo" data-proximo="164">Vermelho</button>
+                <button class="btn-proximo" data-proximo="165">Roxo</button>
+                <button class="btn-proximo" data-proximo="166">Verde</button>
+            </div>
+            <div class="passo" id="passo-46">
+                <img src="Bolos/decoração/limão-cima-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="167">Azul</button>
+                <button class="btn-proximo" data-proximo="168">Vermelho</button>
+                <button class="btn-proximo" data-proximo="169">Roxo</button>
+                <button class="btn-proximo" data-proximo="170">Verde</button>
+            </div>
+            <div class="passo" id="passo-47">
+                <img src="Bolos/decoração/limão-cima-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="171">Azul</button>
+                <button class="btn-proximo" data-proximo="172">Vermelho</button>
+                <button class="btn-proximo" data-proximo="173">Roxo</button>
+                <button class="btn-proximo" data-proximo="174">Verde</button>
+            </div>
+            <div class="passo" id="passo-48">
+                <img src="Bolos/decoração/limão-cima-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="175">Azul</button>
+                <button class="btn-proximo" data-proximo="176">Vermelho</button>
+                <button class="btn-proximo" data-proximo="177">Roxo</button>
+                <button class="btn-proximo" data-proximo="178">Verde</button>
+            </div>
+            <div class="passo" id="passo-49">
+                <img src="Bolos/decoração/limão-baixo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="179">Azul</button>
+                <button class="btn-proximo" data-proximo="180">Vermelho</button>
+                <button class="btn-proximo" data-proximo="181">Roxo</button>
+                <button class="btn-proximo" data-proximo="182">Verde</button>
+            </div>
+            <div class="passo" id="passo-50">
+                <img src="Bolos/decoração/limão-baixo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="183">Azul</button>
+                <button class="btn-proximo" data-proximo="184">Vermelho</button>
+                <button class="btn-proximo" data-proximo="185">Roxo</button>
+                <button class="btn-proximo" data-proximo="186">Verde</button>
+            </div>
+            <div class="passo" id="passo-51">
+                <img src="Bolos/decoração/limão-baixo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="187">Azul</button>
+                <button class="btn-proximo" data-proximo="188">Vermelho</button>
+                <button class="btn-proximo" data-proximo="189">Roxo</button>
+                <button class="btn-proximo" data-proximo="190">Verde</button>
+            </div>
+            <div class="passo" id="passo-52">
+                <img src="Bolos/decoração/limão-tudo-coração.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="191">Azul</button>
+                <button class="btn-proximo" data-proximo="192">Vermelho</button>
+                <button class="btn-proximo" data-proximo="193">Roxo</button>
+                <button class="btn-proximo" data-proximo="194">Verde</button>
+            </div>
+            <div class="passo" id="passo-53">
+                <img src="Bolos/decoração/limão-tudo-estrela.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="195">Azul</button>
+                <button class="btn-proximo" data-proximo="196">Vermelho</button>
+                <button class="btn-proximo" data-proximo="197">Roxo</button>
+                <button class="btn-proximo" data-proximo="198">Verde</button>
+            </div>
+            <div class="passo" id="passo-54">
+                <img src="Bolos/decoração/limão-tudo-flor.png" alt="">
+                <p>Essa decoração está maravilhosa! Qual será o fundo onde ficará o bolo?</p>
+                <button class="btn-proximo" data-proximo="199">Azul</button>
+                <button class="btn-proximo" data-proximo="200">Vermelho</button>
+                <button class="btn-proximo" data-proximo="201">Roxo</button>
+                <button class="btn-proximo" data-proximo="202">Verde</button>
+            </div>
+           
+        </div4>
+
+        <div5>
+            
+            <div class="passo" id="passo-55">
+                <img src="Bolos/cor/azul/baunilha-cima-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-56">
+                <img src="Bolos/cor/red/baunilha-cima-coração-red.png" alt="">
+
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-57">
+                <img src="Bolos/cor/roxo/baunilha-cima-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-58">
+                <img src="Bolos/cor/verde/baunilha-cima-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-59">
+                <img src="Bolos/cor/azul/baunilha-cima-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-60">
+                <img src="Bolos/cor/red/baunilha-cima-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-61">
+                <img src="Bolos/cor/roxo/baunilha-cima-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-62">
+                <img src="Bolos/cor/verde/baunilha-cima-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-63">
+                <img src="Bolos/cor/azul/baunilha-cima-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-64">
+                <img src="Bolos/cor/red/baunilha-cima-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-65">
+                <img src="Bolos/cor/roxo/baunilha-cima-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-66">
+                <img src="Bolos/cor/verde/baunilha-cima-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-67">
+                <img src="Bolos/cor/azul/baunilha-baixo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-68">
+                <img src="Bolos/cor/red/baunilha-baixo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-69">
+                <img src="Bolos/cor/roxo/baunilha-baixo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-70">
+                <img src="Bolos/cor/verde/baunilha-baixo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-71">
+                <img src="Bolos/cor/azul/baunilha-baixo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-72">
+                <img src="Bolos/cor/red/baunilha-baixo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-73">
+                <img src="Bolos/cor/roxo/baunilha-baixo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-74">
+                <img src="Bolos/cor/verde/baunilha-baixo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-75">
+                <img src="Bolos/cor/azul/baunilha-baixo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-76">
+                <img src="Bolos/cor/red/baunilha-baixo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-77">
+                <img src="Bolos/cor/roxo/baunilha-baixo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-78">
+                <img src="Bolos/cor/verde/baunilha-baixo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-79">
+                <img src="Bolos/cor/azul/baunilha-tudo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-80">
+                <img src="Bolos/cor/red/baunilha-tudo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-81">
+                <img src="Bolos/cor/roxo/baunilha-tudo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-82">
+                <img src="Bolos/cor/verde/baunilha-tudo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-83">
+                <img src="Bolos/cor/azul/baunilha-tudo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-84">
+                <img src="Bolos/cor/red/baunilha-tudo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-85">
+                <img src="Bolos/cor/roxo/baunilha-tudo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-86">
+                <img src="Bolos/cor/verde/baunilha-tudo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-87">
+                <img src="Bolos/cor/azul/baunilha-tudo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-88">
+                <img src="Bolos/cor/red/baunilha-tudo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-89">
+                <img src="Bolos/cor/roxo/baunilha-tudo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-90">
+                <img src="Bolos/cor/verde/baunilha-tudo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-91">
+                <img src="Bolos/cor/azul/choco-cima-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-92">
+                <img src="Bolos/cor/red/choco-cima-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-93">
+                <img src="Bolos/cor/roxo/choco-cima-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-94">
+                <img src="Bolos/cor/verde/choco-cima-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-95">
+                <img src="Bolos/cor/azul/choco-cima-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-96">
+                <img src="Bolos/cor/red/choco-cima-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-97">
+                <img src="Bolos/cor/roxo/choco-cima-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-98">
+                <img src="Bolos/cor/verde/choco-cima-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-99">
+                <img src="Bolos/cor/azul/choco-cima-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-100">
+                <img src="Bolos/cor/red/choco-cima-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-101">
+                <img src="Bolos/cor/roxo/choco-cima-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-102">
+                <img src="Bolos/cor/verde/choco-cima-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-103">
+                <img src="Bolos/cor/azul/choco-baixo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-104">
+                <img src="Bolos/cor/red/choco-baixo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-105">
+                <img src="Bolos/cor/roxo/choco-baixo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-106">
+                <img src="Bolos/cor/verde/choco-baixo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-107">
+                <img src="Bolos/cor/azul/choco-baixo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-108">
+                <img src="Bolos/cor/red/choco-baixo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-109">
+                <img src="Bolos/cor/roxo/choco-baixo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-110">
+                <img src="Bolos/cor/verde/choco-baixo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-111">
+                <img src="Bolos/cor/azul/choco-baixo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-112"> 
+                 <img src="Bolos/cor/red/choco-baixo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-113">
+                <img src="Bolos/cor/roxo/choco-baixo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-114">
+                <img src="Bolos/cor/verde/choco-baixo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-115">
+                <img src="Bolos/cor/azul/choco-tudo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-116">
+                <img src="Bolos/cor/red/choco-tudo-coração-red.png" alt="">
+                
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-117">
+                <img src="Bolos/cor/roxo/choco-tudo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-118">
+                <img src="Bolos/cor/verde/choco-tudo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-119">
+                <img src="Bolos/cor/azul/choco-tudo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-120">
+                <img src="Bolos/cor/red/choco-tudo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-121">
+                <img src="Bolos/cor/roxo/choco-tudo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-122">
+                <img src="Bolos/cor/verde/choco-tudo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-123">
+                <img src="Bolos/cor/azul/choco-tudo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-124">
+                <img src="Bolos/cor/red/choco-tudo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-125">
+                <img src="Bolos/cor/roxo/choco-tudo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-126">
+                <img src="Bolos/cor/verde/choco-tudo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-127">
+                <img src="Bolos/cor/azul/morango-cima-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-128">
+                <img src="Bolos/cor/red/morango-cima-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-129">
+                <img src="Bolos/cor/roxo/morango-cima-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-130">
+                <img src="Bolos/cor/verde/morango-cima-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-131">
+                <img src="Bolos/cor/azul/morango-cima-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-132">
+                <img src="Bolos/cor/red/morango-cima-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-133">
+                <img src="Bolos/cor/roxo/morango-cima-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-134">
+                <img src="Bolos/cor/verde/morango-cima-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-135">
+                <img src="Bolos/cor/azul/morango-cima-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-136">
+                <img src="Bolos/cor/red/morango-cima-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-137">
+                <img src="Bolos/cor/roxo/morango-cima-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-138">
+                <img src="Bolos/cor/verde/morango-cima-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-139">
+                <img src="Bolos/cor/azul/morango-baixo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-140">
+                <img src="Bolos/cor/red/morango-baixo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-141">
+                <img src="Bolos/cor/roxo/morango-baixo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-142">
+                <img src="Bolos/cor/verde/morango-baixo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-143">
+                <img src="Bolos/cor/azul/morango-baixo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-144">
+                <img src="Bolos/cor/red/morango-baixo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-145">
+                <img src="Bolos/cor/roxo/morango-baixo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-146">
+                <img src="Bolos/cor/verde/morango-baixo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-147">
+                <img src="Bolos/cor/azul/morango-baixo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-148">
+                <img src="Bolos/cor/red/morango-baixo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-149">
+                <img src="Bolos/cor/roxo/morango-baixo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-150">
+                <img src="Bolos/cor/verde/morango-baixo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-155">
+                <img src="Bolos/cor/azul/morango-tudo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-156">
+                <img src="Bolos/cor/red/morango-tudo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-157">
+                <img src="Bolos/cor/roxo/morango-tudo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-158">
+                <img src="Bolos/cor/verde/morango-tudo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-159">
+                <img src="Bolos/cor/azul/morango-tudo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-160">
+                <img src="Bolos/cor/red/morango-tudo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-161">
+                <img src="Bolos/cor/roxo/morango-tudo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-162">
+                <img src="Bolos/cor/verde/morango-tudo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-163">
+                <img src="Bolos/cor/azul/morango-tudo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-164">
+                <img src="Bolos/cor/red/morango-tudo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-165">
+                <img src="Bolos/cor/roxo/morango-tudo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-166">
+                <img src="Bolos/cor/verde/morango-tudo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-167">
+                <img src="Bolos/cor/azul/limão-cima-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-168">
+                <img src="Bolos/cor/red/limão-cima-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-169">
+                <img src="Bolos/cor/roxo/limão-cima-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-170">
+                <img src="Bolos/cor/verde/limão-cima-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-171">
+                <img src="Bolos/cor/azul/limão-cima-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-172">
+                <img src="Bolos/cor/red/limão-cima-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-173">
+                <img src="Bolos/cor/roxo/limão-cima-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-174">
+                <img src="Bolos/cor/verde/morango-cima-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-175">
+                <img src="Bolos/cor/azul/limão-cima-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-176">
+                <img src="Bolos/cor/red/limão-cima-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-177">
+                <img src="Bolos/cor/roxo/limão-cima-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-178">
+                <img src="Bolos/cor/verde/limão-cima-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-179">
+                <img src="Bolos/cor/azul/limão-baixo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-180">
+                <img src="Bolos/cor/red/limão-baixo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-181">
+                <img src="Bolos/cor/roxo/limão-baixo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-182">
+                <img src="Bolos/cor/verde/limão-baixo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-183">
+                <img src="Bolos/cor/azul/limão-baixo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-184">
+                <img src="Bolos/cor/red/limão-baixo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-185">
+                <img src="Bolos/cor/roxo/limão-baixo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-186">
+                <img src="Bolos/cor/verde/limão-baixo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-187">
+                <img src="Bolos/cor/azul/limão-baixo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-188">
+                <img src="Bolos/cor/red/limão-baixo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-189">
+                <img src="Bolos/cor/roxo/limão-baixo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-190">
+                <img src="Bolos/cor/verde/limão-baixo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-191">
+                <img src="Bolos/cor/azul/limão-tudo-coração-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-192">
+                <img src="Bolos/cor/red/limão-tudo-coração-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-193">
+                <img src="Bolos/cor/roxo/limão-tudo-coração-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-194">
+                <img src="Bolos/cor/verde/limão-tudo-coração-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-195">
+                <img src="Bolos/cor/azul/limão-tudo-estrela-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-196">
+                <img src="Bolos/cor/red/limão-tudo-estrela-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-197">
+                <img src="Bolos/cor/roxo/limão-tudo-estrela-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-198">
+                <img src="Bolos/cor/verde/limão-tudo-estrela-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-199">
+                <img src="Bolos/cor/azul/limão-tudo-flor-azul.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-200">
+                <img src="Bolos/cor/red/limão-tudo-flor-red.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-201">
+                <img src="Bolos/cor/roxo/limão-tudo-flor-roxo.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+            <div class="passo" id="passo-202">
+                <img src="Bolos/cor/verde/limão-tudo-flor-verde.png" alt="">
+                <p>Você finalizou seu bolo, meus parábens! A combinação de cobertura, chantilly e decorações ficaram
+                    maravilhosas, parece até de verdade.<br>Agradeço por confeitar essa delícia, você deseja produzir um novo bolo?</p>
+                <button class="btn-proximo" data-proximo="0">Voltar para o início:</button>
+            </div>
+        </fundo>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
