@@ -3,10 +3,12 @@ body {
     color: antiquewhite;
     font-family: "Nerko One", cursive;
     font-size: 25px;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;  
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 
 button {
@@ -18,7 +20,6 @@ button {
     font-size: 20px;
     cursor: pointer;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .passo {
@@ -33,14 +34,12 @@ main {
     text-align: center;
     max-width: 100%;
     padding-top: 50px;
-    
 }
 
 img {
-    
+    max-height: 300px;
     border-radius: 5px;
-    width: 50vw;
-    object-fit: contain;
+   
 }
 
 div {
@@ -54,6 +53,5 @@ div {
 }
 
 .gif{
-    height: 110%;
-    width: 50vw;
+    height: 110%
 }
