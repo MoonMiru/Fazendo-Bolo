@@ -38,7 +38,8 @@ img {
     max-height: 300px;
     border-radius: 5px;
     width: 70vw;
-    margin: 2em 2em;   
+    margin: 2em 2em;
+    object-fit: contain;
 }
 
 div {
